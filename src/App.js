@@ -40,7 +40,7 @@ function App() {
     <div className="App">
       <h1>Monster Rolodex</h1>
       <SearchBox placeholder='Search Monster:' changeHandler={e => onChangeHandler(e)} />
-      <CardList monsters={monsters} />
+      <CardList monsters={filteredMonsters} />
     </div>
   );
 }
